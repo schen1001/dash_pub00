@@ -1,4 +1,4 @@
-# Solution to bar challenge.
+ver# Solution to bar challenge.
 # Changed code lines 64 to 71
 
 import pandas as pd
@@ -10,7 +10,7 @@ from dash import html
 from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
-
+server=app.server
 # ------------------------------------------------------------------------------
 # Import and clean data (importing csv into pandas)
 df = pd.read_csv("intro_bees.csv")
